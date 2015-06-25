@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+    <Resource
+        name="jdbc/dbuser" auth="Container" type="javax.sql.DataSource"
+        maxActive="100" maxIdle="30" maxWait="10000"
+        url="jdbc:oracle:thin:@csoracle.utdallas.edu:1521:student"
+        driverClassName="oracle.jdbc.OracleDriver"
+        username="sxg145431" password="sxg145431"
+    />
+    
+</Context>
